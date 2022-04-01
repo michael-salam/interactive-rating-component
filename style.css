@@ -1,0 +1,148 @@
+/* general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(220, 11%, 5%);
+}
+
+.component {
+  background-color: hsl(216, 12%, 8%);
+  width: 425px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.heading {
+  color: hsl(0, 0%, 100%);
+}
+
+.remark {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+/* styles for the rating component */
+.img-container,
+.btn {
+  background-color: hsl(213, 19%, 18%);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px -1px #000;
+}
+
+.img-container {
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.btn {
+  border: none;
+  color: hsl(217, 12%, 63%);
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn:active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit-btn {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  padding: 0.75rem 1rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/* styles for the thank-you component */
+#component2 {
+  text-align: center;
+  padding: 2.5rem;
+  display: none;
+}
+
+.rating {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: hsl(213, 19%, 18%);
+  width: 60%;
+  color: hsl(25, 97%, 53%);
+  margin: 1.5rem auto;
+}
+
+/* active styles (when a rating is selected) */
+.selected {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.selected:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+/* styles for the attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media queries (for responsive design) */
+@media screen and (max-width: 500px) {
+  .component {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .component {
+    width: 300px;
+    padding: 1.5rem;
+  }
+
+  .btn {
+    height: 1rem;
+    width: 1rem;
+  }
+}
