@@ -7,7 +7,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -28,10 +27,6 @@ Users should be able to:
 
 ![Screenshot 1](./screenshot1.png)
 ![Screenshot 2](./screenshot2.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 
 ## My process
 
